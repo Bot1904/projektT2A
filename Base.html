@@ -1,1 +1,14 @@
+body {
+  min-height: 100dvh;
+  font-family: Arial, sans-serif;
 
+  display: grid;
+  grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "aside"
+    "footer";
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto 1fr auto auto;
+}
