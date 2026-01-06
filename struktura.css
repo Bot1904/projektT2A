@@ -1,4 +1,68 @@
-.header{grid-area: header; background: gray; color: whitesmoke; text-align: center; padding: 20px;}
-.navigation{ grid-area: nav; background: blanchedalmond; padding: 20px; text-align: center;}
-.footer{grid-area: footer; background: rgb(63, 29, 1); color: white; text-align: center; padding: 20px;}
-.product_card{grid-area: product_card; background: white; padding: 20px; text-align: center;}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Layout */
+.container {
+    display: flex;
+    flex: 1;
+}
+
+main {
+    flex: 1;
+    padding: 40px;
+}
+
+aside {
+    width: 200px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+/* Sekce */
+section {
+    margin-bottom: 60px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+/* Produkty */
+.product-row {
+    display: flex;
+    gap: 20px;
+}
+
+.product-row img {
+    width: 200px;
+    border: 1px solid #ccc;
+}
+
+/* Footer – konec stránky */
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
