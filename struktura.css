@@ -13,11 +13,12 @@ body {
 
 /* Header */
 header {
+    height: 100px;
     background-color: black;
     color: white;
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 50px;
 }
 
 /* Layout */
