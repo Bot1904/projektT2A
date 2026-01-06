@@ -1,1 +1,4 @@
-
+.header{grid-area: header; background: gray; color: whitesmoke; text-align: center; padding: 20px;}
+.navigation{ grid-area: nav; background: blanchedalmond; padding: 20px; text-align: center;}
+.footer{grid-area: footer; background: rgb(63, 29, 1); color: white; text-align: center; padding: 20px;}
+.product_card{grid-area: product_card; background: white; padding: 20px; text-align: center;}
