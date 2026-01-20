@@ -75,3 +75,8 @@ footer {
 .product-row img:hover{
     transform: scale(1.4);
 }
+
+.logo{
+    font-size: 4dvb;
+    margin-left: 400px;
+}
