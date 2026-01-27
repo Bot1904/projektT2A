@@ -76,9 +76,30 @@ footer {
 .product-row img:hover{
     transform: scale(1.4);
     border-radius: 24px;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .logo{
     font-size: 4dvb;
     margin-left: 400px;
+}
+
+.shop{
+    max-width: 50px;
+    max-height: 50px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+    color: white;
+    text-decoration: underline;
 }
