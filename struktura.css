@@ -28,13 +28,14 @@ header {
 }
 
 main {
+    background-color: #D3D3D3;
     flex: 1;
     padding: 40px;
 }
 
 aside {
     width: 200px;
-    background-color: black;
+    background-color: gray;
     color: white;
     padding: 20px;
 }
