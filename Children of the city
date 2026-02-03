@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+    <link rel="stylesheet" href="Struktura.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">Neoficiální Mili E-shop</div>
+    <div class="cart">Košík</div>
+</header>
+
+<div class="container">
+    <main>
+       <div class="product">
+  <img src="Index.webp" alt="Product image" class="product-image">
+  <div class="product-info">
+    <h1 class="namecotc">Children of the city</h1>
+    <p class="info">Lightweight, breathable, perfect for daily runs.</p>
+    <span class="price">$79.99</span>
+    <p class="quantity"><label for="quantity">Quantity:</label>
+        <input
+            type="number"
+            id="quantity"
+            name="quantity"
+            min="1"
+            value="1"></p>
+
+
+    <p><a href="Shopping_cart.html" class="cart-btn">Go to Cart</a></p>
+
+  </div>
+</div>
+
+    </main>
+
+    <aside>
+        
+    </aside>
+</div>
+
+<footer>
+    <div><a href="Kontakty.html">Kontakt</a></div>
+    <div><a href="Info.html">O nás</div></a>
+</footer>
+</body>
+</html>
