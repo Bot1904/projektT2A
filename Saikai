@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Saikai</title>
+    <link rel="stylesheet" href="Struktura.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">Neoficiální Mili E-shop</div>
+    <div class="cart">Košík</div>
+</header>
+
+<div class="container">
+    <main>
+       
+    </main>
+
+    <aside>
+        
+    </aside>
+</div>
+
+<footer>
+    <div>Kontakt</div>
+    <div></a>O nás</div>
+</footer>
+</body>
+</html>
