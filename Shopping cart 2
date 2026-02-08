@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping cart</title>
+    <link rel="stylesheet" href="Struktura.css">
+</head>
+
+<header>
+    <a href="index.html">
+    <img src="Mili_Logo.png" alt="Logo" class="header-logo">
+    </a>
+    <div class="logo">Neoficiální Mili E-shop</div>
+    <div>
+        <img src="Shop_cart.jpg" alt="Shopping cart" class="header-logo">
+    </div>
+</header>
+
+<body>
+
+<div class="container">
+    <main>
+        <s<section class="checkout-section">
+    <h2 class="name">Doprava a Platba</h2>
+    
+    <div class="selection-group">
+        <h3>Způsob dopravy</h3>
+        <label class="option-card">
+            <input type="radio" name="transport" value="zasilkovna" checked>
+            <div class="option-info">
+                <span>Zásilkovna</span>
+                <span class="price">79 Kč</span>
+            </div>
+        </label>
+        <label class="option-card">
+            <input type="radio" name="transport" value="ppl">
+            <div class="option-info">
+                <span>PPL Kurýr</span>
+                <span class="price">120 Kč</span>
+            </div>
+        </label>
+    </div>
+
+    <div class="selection-group">
+        <h3>Způsob platby</h3>
+        <label class="option-card">
+            <input type="radio" name="payment" value="karta" checked>
+            <div class="option-info">
+                <span>Platební karta</span>
+            </div>
+        </label>
+        <label class="option-card">
+            <input type="radio" name="payment" value="dobirka">
+            <div class="option-info">
+                <span>Dobírka</span>
+                <span class="price">+30 Kč</span>
+            </div>
+        </label>
+        <a href="Shopping_Cart_3.html">
+        <button type="button" class="cart-btn">Další krok</button>
+        </a>
+    </div>
+</section>
+    </main>
+
+    <aside>
+        <h3>Shrnutí</h3>
+        <div class="summary-item">
+            <span>Doprava:</span>
+            <span>Zdarma</span>
+        </div>
+        <hr>
+        <div class="summary-total">
+            <strong>Celkem:</strong>
+            <span class="price">0 Kč</span>
+        </div>
+    </aside>
+</div>
+
+<footer>
+    <div>Kontakt</div>
+    <div></a>O nás</div>
+</footer>
+
+</body>
+</html>
