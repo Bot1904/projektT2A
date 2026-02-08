@@ -116,11 +116,11 @@ a:hover{
 }
 
 .product-image {
-  width: 900px;
+  width: 100%;
+  max-width: 900px;
   height: auto;
-  margin-left: 50px;
-  margin-top: 50px;
-  align-items: center;
+  margin: 0 auto;
+  display: block;
 }
 
 .product-info {
@@ -131,51 +131,145 @@ a:hover{
 .price {
   font-weight: bold;
   color: #e63946;
-  margin-left: 275px;
-  font-size: 5ch;
 }
 
 .name{
     font-family: 'Franklin Gothic Medium';
-    font-size: 10ch;
-    margin-left: 200px;
 }
 
-.info{
-    margin-left: 100px;
-    margin-top: 50px;
-    font-size: 3ch;
-}
 
 .cart-btn {
-  display: inline-block;
-  padding: 12px 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 14px 24px;
   background-color: #111;
   color: white;
   text-decoration: none;
-  border-radius: 6px;
+
+  border-radius: 10px;
   font-weight: 600;
-  margin-left: 300px;
-  margin-top: 20px;
+  font-size: 1rem;
+
+  min-width: 180px;       /* consistent size */
+  text-align: center;
+  transition: background-color 0.2s ease, transform 0.1s ease;
 }
+
 
 .cart-btn:hover {
   background-color: #333;
 }
 
-#quantity {
-  width: 70px;
-  padding: 6px;
-  font-size: 16px;
+.cart-btn:active {
+  transform: scale(0.97);
+  background-color: #000;
 }
 
-.quantity{
-    margin-left: 270px;
-    margin-top: 20px;
-}
 
 .namecotc{
     font-family: 'Franklin Gothic Medium';
     font-size: 8ch;
     margin-left: 30px;
+}
+
+@media (max-width: 768px) {
+
+  /* Header */
+  header {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    height: auto;
+    gap: 10px;
+  }
+
+  .logo {
+    margin-left: 0;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  /* Main layout */
+  .container {
+    flex-direction: column;
+  }
+
+  aside {
+    width: 100%;
+    order: -1;
+    text-align: center;
+  }
+
+  /* Product layout */
+  .product {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .product-info {
+    margin-top: 20px;
+  }
+
+  .name {
+    font-size: 2rem;
+  }
+
+  .price {
+    font-size: 1.8rem;
+  }
+
+  .info {
+    font-size: 1rem;
+  }
+
+  .cart-btn {
+    margin: 20px auto 0;
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .quantity {
+    margin-top: 10px;
+  }
+}
+
+@media (hover: hover) {
+  .product-row img:hover {
+    transform: scale(1.4);
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .product {
+    align-items: center;
+  }
+
+  .product-info {
+    text-align: center;
+  }
+
+  .name {
+    font-size: 4rem;
+    margin-bottom: 20px;
+  }
+
+  .info {
+    font-size: 1.4rem;
+    max-width: 600px;
+    margin: 0 auto 30px;
+  }
+
+  .price {
+    font-size: 2.5rem;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .quantity {
+    justify-content: center;
+  }
 }
